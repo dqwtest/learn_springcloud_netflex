@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: config-server
+  # profiles:
+    # 使用文件存储配置，默认放在 resources/config 目录下
+    # active: native
+
+server:
+  port: 9090

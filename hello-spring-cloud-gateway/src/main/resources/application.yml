@@ -1,0 +1,45 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: spring-cloud-gateway
+  cloud:
+    gateway:
+      routes: # 访问 http://localhost:8886/baidu 转发到百度
+        - id: baidu_route
+          uri: http://baidu.com:80
+          predicates:
+            - Path=/baidu
+
+        - id: cookie_route
+          uri: http://baidu.com:80
+          predicates:
+            - Cookie=chocolate, ch.p
+            - Path=/cookie
+
+        - id: header_route
+          uri: http://baidu.com:80
+          predicates:
+            - Path=/header
+            - Header=X-request-Id, 12138
+
+logging: ## Spring Cloud Gateway 的日志配置
+  level:
+    org.springframework.cloud.gateway: TRACE
+    org.springframework.http.server.reactive: DEBUG
+    org.springframework.web.reactive: DEBUG
+    reactor.ipc.netty: DEBUG
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

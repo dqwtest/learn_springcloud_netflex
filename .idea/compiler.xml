@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hello-spring-cloud-netflix-config-client" />
+        <module name="hello-spring-cloud-netflix-turbine" />
+        <module name="hello-spring-cloud-netflix-provider" />
+        <module name="hello-spring-cloud-gateway" />
+        <module name="hello-spring-cloud-netflix-zuul-server" />
+        <module name="hello-spring-cloud-netflix-grpc-lib" />
+        <module name="hello-spring-cloud-netflix-grpc-server" />
+        <module name="hello-spring-cloud-netflix-auth-server" />
+        <module name="hello-spring-cloud-netflix-consumer" />
+        <module name="hello-spring-cloud-netflix-eureka-server" />
+        <module name="hello-spring-cloud-netflix-eureka-config" />
+        <module name="hello-spring-coud-netflix-grpc-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hello-spring-cloud-netflix-zipkin-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hello-spring-cloud-gateway" options="-parameters" />
+      <module name="hello-spring-cloud-netflix-auth-server" options="-parameters" />
+      <module name="hello-spring-cloud-netflix-config-client" options="-parameters" />
+      <module name="hello-spring-cloud-netflix-consumer" options="-parameters" />
+      <module name="hello-spring-cloud-netflix-eureka-config" options="-parameters" />
+      <module name="hello-spring-cloud-netflix-eureka-server" options="-parameters" />
+      <module name="hello-spring-cloud-netflix-grpc-lib" options="-parameters" />
+      <module name="hello-spring-cloud-netflix-grpc-server" options="-parameters" />
+      <module name="hello-spring-cloud-netflix-provider" options="-parameters" />
+      <module name="hello-spring-cloud-netflix-turbine" options="-parameters" />
+      <module name="hello-spring-cloud-netflix-zipkin-server" options="-parameters" />
+      <module name="hello-spring-cloud-netflix-zuul-server" options="-parameters" />
+      <module name="hello-spring-coud-netflix-grpc-client" options="-parameters" />
+    </option>
+  </component>
+</project>

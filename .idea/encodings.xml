@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-netflix-auth-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-netflix-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-netflix-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-netflix-eureka-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-netflix-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-netflix-grpc-lib" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-netflix-grpc-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-netflix-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-netflix-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-netflix-zuul-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-coud-netflix-grpc-client" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

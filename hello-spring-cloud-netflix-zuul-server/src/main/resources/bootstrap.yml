@@ -1,0 +1,65 @@
+spring:
+  application:
+    name: zuul-server
+  # 文件上传
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 100MB # 单个文件的最大长度
+      max-request-size: 100MB # 设置最大的请求文件的大小、默认10M
+      file-size-threshold: 1MB # 当上传文件达到1MB的时候进行磁盘写入
+      location: / # 上传的临时目录
+  # 配置数据源
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring-db?useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+
+  ribbon:
+    eureka:
+      enabled: true
+
+# Hystrix 默认超时时间为1s，如果要上传大文件，为避免超时，稍微设大一点
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: THREAD
+            thread:
+              # 加大超时时间
+              timeoutInMilliseconds: 5000
+
+server:
+  port: 5555
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+zuul:
+  routes:
+    client-a:
+      # 将 /client开头的url 映射到client-a服务
+      # 不用请求实际的服务，转而请求 5555端口的 Zuul 服务组件
+      path: /clients/**
+      serviceId: eureka-provider
+  host:
+    # 超时策略
+    socket-timeout-millis: 60000
+    connect-timeout-millis: 60000
+
+
+# 启用监控
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always

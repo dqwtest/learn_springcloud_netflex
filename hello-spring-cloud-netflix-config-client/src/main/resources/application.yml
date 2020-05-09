@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: config-client
+  ## 配置rabbitMQ 信息
+  rabbitmq:
+    # rabbitMQ 安装的位置
+    host: 47.98.200.72
+    port: 5672
+    username: dqw
+    password: dqw0117
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+server:
+  port: 9091
+
+# 配置刷新
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always

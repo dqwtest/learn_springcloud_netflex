@@ -1,0 +1,20 @@
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+  # 默认情况下，eureka server同时也是eureka client，用于相互注册形成高可用eureka服务。
+  client:
+    # 是否注册到eureka服务，默认为true，当前已为eureka server，且单点eureka，故配置为false
+    register-with-eureka: false
+    # 是否在本地缓存注册表信息，当前为单点eureka server，不需要从其他eureka除获取注册表信息
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    # 详见EurekaServerConfigBean，需要注意与Client和Instance在client的jar包不同，Server是在server的jar包。
+    # eureka的各项配置可见EurekaXXXConfigBean。
+    wait-time-in-ms-when-sync-empty: 0
+    # 本地调试时可fasle关闭。但生产建议打开，可防止因网络不稳定等原因导致误剔除服务。
+    enable-self-preservation: false

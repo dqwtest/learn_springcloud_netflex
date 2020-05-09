@@ -1,0 +1,28 @@
+syntax = "proto3"; // 请在非空非注释的第一行指定当前文件使用的是proto3的语法,默认proto2
+// package 与 java_package有些不同
+// java_package是定义编译生成的java文件所在的目录，
+// 而package是对应的java类的命名空间
+package cn.springcloud.grpc;
+// option java_package = "cn.springcloud.proto";
+// 要生成Java类的名称
+// option java_outer_classname = "HelloWorldServiceProto";
+// 编译后会生成多个Message类，并没有被包含在HelloWorldServiceProto.java文件中
+// 反之,生成单一HelloWorldServiceProto.java文件
+option java_multiple_files = true;
+//服务端接口类
+service HelloService {
+    // 方法hello 参数为HelloRequest 返回值helloResponse
+    //服务端接口方法
+    rpc SayHello (HelloRequest) returns (HelloResponse);
+}
+//请求参数 基于序号的协议字段映射，所以字段可以乱序，可缺段
+message HelloRequest {
+    string name = 1;
+    int32 age = 2;
+    repeated string hobbies = 3;
+    map<string, string> tags = 4;
+}
+//响应参数
+message HelloResponse {
+    string message = 1;
+}

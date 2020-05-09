@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "cn.springcloud.book",
+      "type": "com.example.spring.cloud.netflix.client.configuration.ConfigInfoProperties",
+      "sourceType": "com.example.spring.cloud.netflix.client.configuration.ConfigInfoProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cn.springcloud.book.config",
+      "type": "java.lang.String",
+      "sourceType": "com.example.spring.cloud.netflix.client.configuration.ConfigInfoProperties"
+    }
+  ],
+  "hints": []
+}

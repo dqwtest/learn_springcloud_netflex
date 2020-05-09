@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="50afd016-088c-446b-a2a2-7a0d73475337" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="spring-db@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="spring-db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="spring-db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="spring-db: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/software/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:\software\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dfile.encoding=GBK" />
+  </component>
+  <component name="ProjectId" id="1YTaNpQVqhloO8dU64dRGEq2pfg" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/电子资料/代码资料/Mango-Workspace" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Codes\hello-spring-cloud-neflix\hello-spring-cloud-netflix-grpc-lib\src\main" />
+      <recent name="E:\Codes\hello-spring-cloud-neflix\hello-spring-cloud-netflix-grpc-lib\src\main\java" />
+      <recent name="E:\Codes\hello-spring-cloud-neflix\hello-spring-cloud-netflix-grpc-lib\src\main\proto" />
+      <recent name="E:\Codes\hello-spring-cloud-neflix\hello-spring-cloud-netflix-turbine\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProviderApplication">
+    <configuration name="MyGrpcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello.spring.cloud.netflix.grpc.client.MyGrpcClient" />
+      <module name="hello-spring-coud-netflix-grpc-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.spring.cloud.netflix.grpc.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyGrpcServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello.spring.cloud.netflix.grpc.server.MyGrpcServer" />
+      <module name="hello-spring-cloud-netflix-grpc-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.spring.cloud.netflix.grpc.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hello-spring-cloud-netflix-config-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.spring.cloud.netflix.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring.cloud.netflix.client.ConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hello-spring-cloud-netflix-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring.cloud.netflix.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hello-spring-cloud-netflix-eureka-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring.cloud.netflix.eureka.config.EurekaConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hello-spring-cloud-netflix-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring.cloud.netflix.consumer.EurekaServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OauthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hello-spring-cloud-netflix-auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring.cloud.netflix.oauth.OAuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="hello-spring-cloud-netflix-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring.cloud.netflix.provider.ProviderApplication" />
+      <option name="ACTIVE_PROFILES" value="node1" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hello-spring-cloud-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.spring.cloud.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.spring.cloud.gateway.SpringCloudGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hello-spring-cloud-netflix-turbine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.spring.cloud.netflix.hystrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring.cloud.netflix.hystrix.TurbineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hello-spring-cloud-netflix-zuul-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring.cloud.netflix.zuul.ZuulServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MyGrpcServer" />
+      <item itemvalue="Application.MyGrpcClient" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.EurekaConfigServerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication " />
+      <item itemvalue="Spring Boot.ProviderApplication" />
+      <item itemvalue="Spring Boot.OauthServerApplication" />
+      <item itemvalue="Spring Boot.TurbineApplication" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
+      <item itemvalue="Spring Boot.SpringCloudGatewayApplication" />
+      <item itemvalue="Spring Boot.ZuulServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringCloudGatewayApplication" />
+        <item itemvalue="Application.MyGrpcClient" />
+        <item itemvalue="Application.MyGrpcServer" />
+        <item itemvalue="Spring Boot.ConfigClientApplication" />
+        <item itemvalue="Spring Boot.TurbineApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8fd9e537" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8fd9e537" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@661df25b" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50afd016-088c-446b-a2a2-7a0d73475337" name="Default Changelist" comment="" />
+      <created>1582969002872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582969002872</updated>
+      <workItem from="1582969014128" duration="7650000" />
+      <workItem from="1583152492976" duration="90000" />
+      <workItem from="1583216977119" duration="11524000" />
+      <workItem from="1583300959795" duration="11502000" />
+      <workItem from="1583390612079" duration="15267000" />
+      <workItem from="1583480431508" duration="2816000" />
+      <workItem from="1583496093708" duration="1497000" />
+      <workItem from="1583498514883" duration="9361000" />
+      <workItem from="1583650733887" duration="15050000" />
+      <workItem from="1583896977307" duration="25849000" />
+      <workItem from="1583979577266" duration="13781000" />
+      <workItem from="1584178469512" duration="24000" />
+      <workItem from="1584190800737" duration="10874000" />
+      <workItem from="1584240052887" duration="2071000" />
+      <workItem from="1584242382386" duration="15797000" />
+      <workItem from="1584351871315" duration="2931000" />
+      <workItem from="1584359551753" duration="13796000" />
+      <workItem from="1584442606986" duration="1049000" />
+      <workItem from="1584448476831" duration="4460000" />
+      <workItem from="1584522128999" duration="2904000" />
+      <workItem from="1584525627301" duration="1982000" />
+      <workItem from="1584527647158" duration="550000" />
+      <workItem from="1584528236391" duration="9810000" />
+      <workItem from="1584541228710" duration="5886000" />
+      <workItem from="1584593724543" duration="16353000" />
+      <workItem from="1584714117578" duration="3405000" />
+      <workItem from="1584755752462" duration="17485000" />
+      <workItem from="1584793262497" duration="97000" />
+      <workItem from="1585040208595" duration="5891000" />
+      <workItem from="1585197438099" duration="1615000" />
+      <workItem from="1585235259316" duration="10000" />
+      <workItem from="1585638723428" duration="394000" />
+      <workItem from="1585642011566" duration="645000" />
+      <workItem from="1585809067108" duration="14699000" />
+      <workItem from="1585897825471" duration="594000" />
+      <workItem from="1586615798157" duration="745000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

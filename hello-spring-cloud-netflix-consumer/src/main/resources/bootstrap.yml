@@ -1,0 +1,5 @@
+ribbon:
+  eager-load:
+    clients:
+      eureka-server
+    enabled: true

@@ -1,0 +1,42 @@
+spring:
+  cloud:
+    config:
+      server:
+        jdbc:
+          sql: SELECT `key`, `value` FROM properties WHERE application=? AND profile =? AND label =?
+      label: master
+    refresh:
+      extra-refreshable: none
+  profiles:
+    active: jdbc
+
+  ## 配置rabbitMQ 信息
+  rabbitmq:
+    # rabbitMQ 安装的位置
+    host: 47.98.200.72
+    port: 5672
+    username: dqw
+    password: dqw0117
+
+  ## 数据配置
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/spring-db?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+# 配置刷新
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+
+# 配置日志
+logging:
+  level:
+    root: debug
