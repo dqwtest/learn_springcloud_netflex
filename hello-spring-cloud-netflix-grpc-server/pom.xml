@@ -13,7 +13,7 @@
     <artifactId>hello-spring-cloud-netflix-grpc-server</artifactId>
 
     <properties>
-        <grpc.version>1.27.0</grpc.version>
+        <grpc.version>1.53.0</grpc.version>
     </properties>
 
     <dependencies>
